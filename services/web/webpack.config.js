@@ -26,7 +26,6 @@ const argv = yargs.option('name', {
 // Note that webpack has deprecated the -p flag and now uses "mode".
 // Additionally NODE_ENV seems to affect the build as well.
 const BUILD = process.env.NODE_ENV === 'production';
-
 const PARAMS = {
   BUILD,
   ...config.getAll(),
