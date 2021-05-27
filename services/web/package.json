@@ -6,7 +6,7 @@
     "node": ">=10"
   },
   "scripts": {
-    "build": "react-scripts build",
+    "build": "webpack",
     "start": "node ./serve/dev",
     "static": "node ./serve/static",
     "lint": "eslint .",
